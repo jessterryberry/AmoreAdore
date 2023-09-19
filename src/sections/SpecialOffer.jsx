@@ -1,6 +1,7 @@
 import { arrowRight } from "../assets/icons";
 import { offer } from "../assets/images";
 import Button from "../components/Button";
+import { Link } from "react-router-dom";
 
 const SpecialOffer = () => {
   return (
@@ -10,21 +11,23 @@ const SpecialOffer = () => {
       </div>
       <div className='flex flex-1 flex-col'>
       <h2 className='text-4xl font-palanquin font-bold'>
-          <span className='text-coral-red'>Special </span>
+          <span className='text-light-coral'>Special </span>
           Offer
         </h2>
         <p className='mt-4 lg:max-w-lg info-text'>
-          Treat yourself to a romantic escape with our special offers. Amore Adore rewards you
-          with <strong>2x bonus points</strong> when you buy online, so you can save more and read more.
-          Browse our wide range of genres, from historical to paranormal, and find your perfect match.
+          Step into a world of passion and page-turning romance at Amore Adore, the 
+          ultimate destination for love story enthusiasts. For a limited time, 
+          earn double the bonus points with online every purchase.
         </p>
         <p className='mt-6 lg:max-w-lg info-text'>
-          Amore Adore is the ultimate destination for romance lovers. Your journey with us is
-          where romance comes alive.
+          Whether you're seeking passionate encounters or everlasting love, let our 
+          curated collection sweep you off your feet, all while earning rewards to fuel your next romantic escape.
         </p>
         <div className='mt-11 flex flex-wrap gap-4'>
-          <Button label='Shop now' iconURL={arrowRight} />
-          <Button label='Learn more' backgroundColor='bg-white' borderColor='border-slate-gray' textColor='text-slate-gray' />
+          <Link to="/all-products">
+            <Button label='Shop now' iconURL={arrowRight} />
+          </Link>
+          <Button label='Learn more' backgroundColor='bg-white' borderColor='border-slate-gray' textColor='text-slate-gray-200' />
         </div>
       </div>
     </section>

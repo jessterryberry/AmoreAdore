@@ -1,4 +1,4 @@
-//Website Title is going to be called AmourAdore
+//Website Title is going to be called AmoreAdore
 
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
 import { bigBook1, bigBook2, bigBook3, customer1, customer2, 
@@ -7,10 +7,10 @@ import { bigBook1, bigBook2, bigBook3, customer1, customer2,
          thumbnailBook2, thumbnailBook3 } from "../assets/images";
 
 export const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
-    { href: "#products", label: "Products" },
-    { href: "#contact-us", label: "Contact Us" },
+    { href: "", label: "Home" },
+    { href: "about-us", label: "About Us" },
+    { href: "all-products", label: "Products" },
+    { href: "contact-us", label: "Contact Us" },
 ];
 
 export const books = [
@@ -166,6 +166,25 @@ export const services = [
     },
 ];
 
+export const aboutUs = [
+    {
+        imgURL: support,
+        label: "Our Commitment",
+        subtext: "A small team of five, dedicated to bringing the best in romance and fantasy."
+    },
+    {
+        imgURL: truckFast,
+        label: "Shipping",
+        subtext: "For orders exceeding $100, enjoy free shipping, because we believe that every booklover deserves a little extra love."
+    },
+    {
+        imgURL: shieldTick,
+        label: "Secure Payment",
+        subtext: "Experience worry-free transactions with secure payment options, ensuring a seamless shopping experience."
+    },
+    
+];
+
 export const reviews = [
     {
         imgURL: customer1,
@@ -186,11 +205,9 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
+            { name: "A Touch of Chaos", link: "/" },
             { name: "A Court of Thorns and Roses", link: "/" },
-            { name: "A Touch of Darkness", link: "/" },
-            { name: "A Touch of Ruin", link: "/" },
             { name: "Fourth Wing", link: "/" },
-            { name: "Twisted Love", link: "/" },
             { name: "Twisted Games", link: "/" },
         ],
     },
@@ -207,7 +224,7 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@amoradore.com", link: "mailto:customer@amoreadore.com" },
+            { name: "customer@amoreadore.com", link: "mailto:customer@amoreadore.com" },
             { name: "+18073558463", link: "tel:+18073558463" },
         ],
     },

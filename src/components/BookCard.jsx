@@ -8,7 +8,7 @@ const BookCard = ({ imgURL, changeBigBookImage, bigBookImg }) => {
   return (
     <div className={`border-2 rounded-xl
         ${bigBookImg === imgURL.bigBook
-            ? 'border-coral-red'
+            ? 'border-salmon-pink'
             : 'border-transparent'
         } cursor-pointer max-sm:flex-1
     `}

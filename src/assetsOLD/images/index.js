@@ -9,6 +9,7 @@ import footerLogo from './footer-logo.svg'
 import headerLogo from './header-logo.svg'
 
 import offer from './offer.svg'
+import accent from './accent.svg'
 
 import shoe4 from './shoe4.svg'
 import shoe5 from './shoe5.svg'
@@ -34,6 +35,8 @@ export {
     headerLogo,
 
     offer,
+    accent,
+
     shoe4,
     shoe5,
     shoe6,

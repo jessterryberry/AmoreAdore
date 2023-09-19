@@ -9,6 +9,7 @@ import footerLogo from './header-logo.svg'
 import headerLogo from './header-logo.svg'
 
 import offer from './Offer.svg'
+import accent from './accent.svg'
 
 import book1 from './book1.svg'
 import book2 from './book2.svg'
@@ -42,6 +43,8 @@ export {
     footerLogo,
 
     offer,
+    accent,
+
     book1, 
     book2,
     book3,

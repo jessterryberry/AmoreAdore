@@ -25,15 +25,25 @@ export default {
         'primary': "#ECEEFF",
         "coral-red": "#FF6452",
         "slate-gray": "#6D6D6D",
+        "slate-gray-100": "#545454",
+        "slate-gray-200": "#474747",
         "pale-blue": "#F5F6FF",
-        "white-400": "rgba(255, 255, 255, 0.80)"
+        "white-400": "rgba(255, 255, 255, 0.80)",
+        "seasalt": "#F4F7F5",
+        "cosmic-latte": "#FFF8E8",
+        "salmon-pink": "#F8A0A7",
+        "light-coral": "#F6828C",
+        "tea-rose": "#FBC6CA",
+        "lavender-blush": "#FEECED",
+        "plum": "#824670"
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
       backgroundImage: {
-        'hero': "url('assets/images/collection-background.svg')",
+        'hero': "url('assets/images/collection-background-pink.svg')",
         'card': "url('assets/images/thumbnail-background.svg')",
+        'accent': "url('assets/images/accent.svg')",
       },
       screens: {
         "wide": "1440px"

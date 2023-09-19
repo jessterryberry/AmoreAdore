@@ -17,8 +17,8 @@ const Footer = () => {
             />
           </a>
           <p className='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
-            Get shoes ready for the new term at your nearest Nike store. Find
-            your perfect size in store. Get rewards.
+            Indulge in captivating love stories with our latest arrivals. Find
+            your perfect story online now and earn rewards.
           </p>
           <div className='flex items-center gap-5 mt-8'>
             {socialMedia.map((icon) => (
@@ -41,7 +41,7 @@ const Footer = () => {
               <ul>
                 {section.links.map((link) => (
                   <li
-                    className='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray'
+                    className='mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray-200'
                     key={link.name}
                   >
                     <a href={link.link}>{link.name}</a>
