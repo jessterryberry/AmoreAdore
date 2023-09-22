@@ -30,6 +30,7 @@ import thumbnailBackground from './thumbnail-background.svg'
 import thumbnailBook1 from './thumbnail-book1.svg'
 import thumbnailBook2 from './thumbnail-book2.svg'
 import thumbnailBook3 from './thumbnail-book3.svg'
+import Jessica from './Jessica.svg'
 
 export {
     bigBook1,
@@ -64,4 +65,5 @@ export {
     thumbnailBook1,
     thumbnailBook2,
     thumbnailBook3,
+    Jessica
 }

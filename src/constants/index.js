@@ -225,7 +225,7 @@ export const footerLinks = [
         title: "Get in touch",
         links: [
             { name: "customer@amoreadore.com", link: "mailto:customer@amoreadore.com" },
-            { name: "+18073558463", link: "tel:+18073558463" },
+            { name: "+ 1 807 355 8463", link: "tel:+18073558463" },
         ],
     },
 ];

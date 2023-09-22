@@ -23,5 +23,5 @@ export {
     shieldTick,
     star,
     truckFast,
-    twitter
+    twitter,
 }
