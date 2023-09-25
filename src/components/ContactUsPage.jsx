@@ -1,6 +1,10 @@
-import Button from "./Button"
+import Button from "./Button";
+import React, { useState } from 'react';
+import Modal from "./Modal";
 
 const ContactUsPage = () => {
+    const [showModal, setShowModal] = React.useState(false);
+
     return (
         <div>
             <section id="contact-us" className="max-container max-sm:mt-12 padding">
@@ -16,7 +20,14 @@ const ContactUsPage = () => {
                         <textarea rows="3" placeholder="Message" className="input w-full bg-seasalt" />
                     </div>
                     <div className="flex max-sm:justify-end items-center max-sm:w-full">
-                        <Button label="Send" fullWidth />
+                       
+                        <div onClick={() => setShowModal(true)}>
+                            <Button label="Send" fullWidth />
+                        </div>
+
+                        {showModal ? (
+                            <Modal closeModal={() => setShowModal(false)}/>
+                        ) : null}
                     </div>
                 </div>
             </section>

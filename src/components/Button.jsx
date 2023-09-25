@@ -1,4 +1,4 @@
-const Button = ({ label, iconURL, backgroundColor, textColor, borderColor, fullWidth }) => {
+const Button = ({ label, iconURL, backgroundColor, textColor, borderColor, fullWidth, handleClick }) => {
   return (
     <button
       className={`flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none 
@@ -6,6 +6,7 @@ const Button = ({ label, iconURL, backgroundColor, textColor, borderColor, fullW
           ? `${backgroundColor} ${textColor} ${borderColor}`
           : "bg-light-coral text-white border-salmon-pink"
         } rounded-full ${fullWidth && "w-full"}`}
+      onClick={handleClick} // Add an onClick handler
     >
       {label}
 
